@@ -2,7 +2,7 @@
 
 ## Welcome to my collection of competitive programming solutions 
 
-This repository is an archive of my code and solutions to previous USACO and CCC problems
+This repository is an archive of my code and solutions to previous USACO and CCC contest problems
 
 ### Goals of this repository
 - Documenting my learning
