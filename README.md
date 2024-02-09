@@ -5,8 +5,8 @@
 This repository is an archive of my code and solutions to previous USACO and CCC problems
 
 ### Goals of this repository
-- **Documenting my learning
-- **Sharing my solutions
+- Documenting my learning
+- Sharing my solutions
 
 ### Repository Structure
 - 'Contest Category' 
