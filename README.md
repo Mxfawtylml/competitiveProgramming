@@ -11,10 +11,9 @@ This repository is an archive of my code and solutions to various competitive pr
 ### Repository Structure
 - 'Contest'
   - 'Category (if applicable)' 
-    - 'Contest Date 1' 
+    - 'Contest Date' 
       - 'Problem 1'
-        - 'Solution'
-        - 'Problem Description'
+      - 'Solution 1'
       - 'Problem 2'
         - ...
 
