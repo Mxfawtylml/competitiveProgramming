@@ -14,7 +14,6 @@ public class Q2{
         try{
             //Reading
             reader = new BufferedReader(new FileReader("ccski.in"));
-            //reader.readLine()
             String[] temp = reader.readLine().split(" ");
             m = Integer.parseInt(temp[0]);
             n = Integer.parseInt(temp[1]);
