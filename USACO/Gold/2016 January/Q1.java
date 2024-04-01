@@ -1,5 +1,3 @@
-//Template for file output
-
 //Solved 10/10
 
 import java.util.*;
