@@ -11,7 +11,6 @@ public class Q1{
         try{
             //Reading
             reader = new BufferedReader(new FileReader("cowdance.in"));
-            //reader.readLine()
 
             String[] temp = reader.readLine().split(" ");
             int n = Integer.parseInt(temp[0]);
@@ -42,13 +41,6 @@ public class Q1{
             try {
                 //Output
                 FileWriter writer = new FileWriter("cowdance.out");
-                
-                //writer.write()
-                //System.lineSeparator() 
-
-                // writer.write(n + System.lineSeparator());
-                // writer.write(tMax + System.lineSeparator());
-                // writer.write(Arrays.toString(d));
 
                 writer.write(smallestPossible + System.lineSeparator());
                 writer.close(); 
