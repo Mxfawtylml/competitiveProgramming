@@ -10,7 +10,6 @@ public class Q1{
         try{
             //Reading
             reader = new BufferedReader(new FileReader("convention.in"));
-            //reader.readLine()
             String[] temp = reader.readLine().split(" ");
 
             int n = Integer.parseInt(temp[0]);
@@ -27,7 +26,6 @@ public class Q1{
             Arrays.sort(arr);
 
             //Algo
-
             int left = 0;
             int right = arr[n-1] - arr[0];
             int middle = 0;
@@ -49,9 +47,6 @@ public class Q1{
             try {
                 //Output
                 FileWriter writer = new FileWriter("convention.out");
-                
-                //writer.write()
-                //System.lineSeparator()
 
                 writer.write(middle + System.lineSeparator());
 
