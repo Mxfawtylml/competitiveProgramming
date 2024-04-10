@@ -1,4 +1,3 @@
-//Template for file output
 //10 out of 10 cases solved
 
 import java.util.*;
@@ -11,7 +10,6 @@ public class Q3{
         try{
             //Reading
             reader = new BufferedReader(new FileReader("fenceplan.in"));
-            //reader.readLine()
 
             String[] temp = reader.readLine().split(" ");
 
@@ -82,13 +80,7 @@ public class Q3{
                     bfs.remove();
 
                 }
-
-                // System.out.println(minx);
-                // System.out.println(maxx);
-                // System.out.println(miny);
-                // System.out.println(maxy);
-
-
+                
                 minPerimeter = Math.min(minPerimeter, 2*(maxx-minx) + 2*(maxy-miny));
 
                 start = next(visited);
@@ -98,9 +90,6 @@ public class Q3{
             try {
                 //Output
                 FileWriter writer = new FileWriter("fenceplan.out");
-                
-                //writer.write()
-                //System.lineSeparator()
 
                 writer.write(minPerimeter + System.lineSeparator());
 
