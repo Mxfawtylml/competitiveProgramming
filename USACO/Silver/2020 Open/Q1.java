@@ -13,7 +13,6 @@ public class Q1{
         try{
             //Reading
             reader = new BufferedReader(new FileReader("socdist.in"));
-            //reader.readLine()
 
             String[] temp = reader.readLine().split(" ");
             n = Integer.parseInt(temp[0]);
@@ -27,10 +26,6 @@ public class Q1{
                 arr[i][1] = Long.parseLong(temp[1]);
             }
 
-            // System.out.println(n);
-            // System.out.println(m);
-            // System.out.println(Arrays.deepToString(arr));
-
             //Algo
             
             Arrays.sort(arr, (a,b) -> Long.compare(a[0], b[0]));
@@ -42,9 +37,6 @@ public class Q1{
 
             while(left<=right){
                 long middle = (left+right)/2;
-
-                // System.out.println(middle);
-                // System.out.println(distanceValid(middle));
 
                 if(distanceValid(middle)){
                     left = middle+1;
@@ -58,9 +50,6 @@ public class Q1{
             try {
                 //Output
                 FileWriter writer = new FileWriter("socdist.out");
-                
-                //writer.write()
-                //System.lineSeparator()
 
                 writer.write(prevpossible + System.lineSeparator());
 
@@ -86,8 +75,6 @@ public class Q1{
         
         int count = n;
         long curr = 0;
-
-        //System.out.println(k + "----");
         
         for(int i=0; i<m && count>0; i++){
             if(curr<arr[i][0]){
@@ -95,7 +82,7 @@ public class Q1{
             }
             
             while(curr>=arr[i][0] && curr<=arr[i][1]){
-                //System.out.println(curr);
+
                 count--;    
                 curr+=k;
             }
