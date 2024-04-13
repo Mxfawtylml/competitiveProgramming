@@ -1,0 +1,18 @@
+Farmer John has N barns (3 <= N <= 5⋅10^5), of which K (3 <= K <= N) distinct pairs of barns are connected.
+
+First, Annabelle assigns each barn a distinct integer label in the range [1,N], and observes that the barns with labels a1,…,aK are connected in a cycle, in 
+that order. That is, barns ai and ai+1 are connected for all 1 <= i < K, and barns aK and a1 are also connected. All ai are distinct.
+
+Next, Bessie also assigns each barn a distinct integer label in the range [1,N] and observes that the barns with labels b1,…,bK are connected in a cycle, in 
+that order. All bi are distinct.
+
+Some (possibly none or all) barns are assigned the same label by Annabelle and Bessie. Compute the maximum possible number of barns that are assigned the same 
+label by Annabelle and Bessie.
+
+INPUT FORMAT:
+  *Line 1: N and K
+  *Line 2: a1,…,aK
+  *Line 3: b1,…,bK
+
+OUTPUT FORMAT:
+  *Line 1: The maximum number of fixed points
